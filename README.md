@@ -3,10 +3,10 @@ Herramienta de analisis forense, recuperacion  Y tallado de archivos
 Forensics es una herramienta escrita es bash que automatiza procesos como volcado de memoria, creacion de imagen forense y recuperacion de archivos
 
 #Instalacion
-git clone https://github.com/Max-1488/Forensics
-./install.sh
-pip install -r requirements.txt
-bash forensics.sh
+#git clone https://github.com/Max-1488/Forensics
+#./install.sh
+#pip install -r requirements.txt
+#bash forensics.sh
 
 #Modo de uso
 Forenscis en el aspecto es facil de usar, solo necesitas seguir al pie de la letra todo lo que te pide.
