@@ -33,7 +33,7 @@ ione, algunas de las herramientas que podran encontrar son, dd, guymager, dc3dd 
 ![image](https://user-images.githubusercontent.com/64449711/120122623-2b77dd00-c167-11eb-83e3-00c2657d8402.png)
 
 # Recuperacion de archivos
-Incluimos una sencion para recuperacion y tallado de archivos, esto no quiere decir que recuperaras el 100% de todo ellos, pero podras tallar y recuperar información con extenciónes como, jpef, png, zip, mp4, pdf, url y entre muchas mas
+Incluimos una sección para recuperacion y tallado de archivos, esto no quiere decir que recuperaras el 100% de todo ellos, pero podras tallar y recuperar información con extenciónes como, jpef, png, zip, mp4, pdf, url y entre muchas mas
 
 ![image](https://user-images.githubusercontent.com/64449711/120209038-6f142a80-c1eb-11eb-80c5-00a5fa133f14.png)
 
@@ -43,7 +43,7 @@ la validación de hash es una parte esencial para el analisis forense, en esta a
 ![image](https://user-images.githubusercontent.com/64449711/120209607-1c873e00-c1ec-11eb-8463-558c4b22bfa1.png)
 
 # Analisis de memoria images y memoria ram
-podremos analizar images iso tanto los procesos que se han llevado a cabo al momento de un incidente de seguridad, hemos integrado 3 herramientas de uso facil que incluye en este aspecto algunas de estas son: Volatility, binwalk, Autopsy.
+podremos analizar imagenes iso tanto los procesos que se han llevado a cabo al momento de un incidente de seguridad, hemos integrado 3 herramientas de uso facil que incluye en este aspecto algunas de estas son: Volatility, binwalk, Autopsy.
 
 ![image](https://user-images.githubusercontent.com/64449711/120210226-c6ff6100-c1ec-11eb-9b87-13188fd54db6.png)
 
@@ -51,7 +51,7 @@ podremos analizar images iso tanto los procesos que se han llevado a cabo al mom
 Mostraremos el uso adecuado de estas herramientas o se podria decir el mas basico, ya que estas requieren mas uso manual.
 
 # Autopsy
-Una vez el autopsia se hace haya iniciado en la herramienta le daremos click en el icono de enlace o lo copiamos y pegamos en nuestro navegador.
+Una vez el autopsy se haya iniciado en la herramienta le daremos click en el icono de enlace o lo copiamos y pegamos en nuestro navegador.
 
 ![image](https://user-images.githubusercontent.com/64449711/120218826-8822d880-c1f7-11eb-9d00-b6c221b93c84.png)
 
