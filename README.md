@@ -1,5 +1,5 @@
 # Forensics
-Herramienta de analisis forense, recuperacion y tallado de archivo
+Herramienta de analisis forense, recuperacion y tallado de archivos.
 Forensics es una herramienta escrita es bash que automatiza procesos como volcado de memoria, creacion de imagen forense y recuperacion de archivos
 
 # Instalacion
