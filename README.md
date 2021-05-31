@@ -5,8 +5,6 @@ Forensics es una herramienta escrita es bash que automatiza procesos como volcad
 # Instalacion
 #git clone https://github.com/Max-1488/Forensics
 
-#./install.sh
-
 #pip install -r requirements.txt
 
 #chmod +x forense.sh
@@ -14,6 +12,8 @@ Forensics es una herramienta escrita es bash que automatiza procesos como volcad
 #chmod +x forensic.sh
 
 #chmod +x install
+
+#./install.sh
 
 #bash forensics.sh
 
