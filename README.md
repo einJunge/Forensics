@@ -1,5 +1,5 @@
 # Forensics
-Herramienta de analisis forense, recuperacion  Y tallado de archivos
+Herramienta de analisis forense, recuperacion y tallado de archivo
 Forensics es una herramienta escrita es bash que automatiza procesos como volcado de memoria, creacion de imagen forense y recuperacion de archivos
 
 # Instalacion
@@ -51,16 +51,11 @@ podremos analizar imagenes iso tanto los procesos que se han llevado a cabo al m
 Mostraremos el uso adecuado de estas herramientas o se podria decir el mas basico, ya que estas requieren mas uso manual.
 
 # Autopsy
-Una vez el autopsy se haya iniciado en la herramienta le daremos click en el icono de enlace o lo copiamos y pegamos en nuestro navegador.
+Una vez el autopsy se haya iniciado en la herramienta podremos empezar con nuestro primer caso.
 
 ![image](https://user-images.githubusercontent.com/64449711/120218826-8822d880-c1f7-11eb-9d00-b6c221b93c84.png)
 
 # Creando un nuevo caso.
-
-Para crear un nuevo caso, siga los pasos dados:
-1. Cuando Navegador forense de autopsias abre, a los investigadores se les presentan tres
-opciones: ESTUCHE ABIERTO, ESTUCHE NUEVO, y AYUDA.
-2. Haga clic en NUEVO CASO:
 
 ![image](https://user-images.githubusercontent.com/64449711/120218889-9d980280-c1f7-11eb-8b36-9a3ab634ab32.png)
 
@@ -87,18 +82,18 @@ bien conocido
 
 Haga clic en el ADDHOST botón para continuar.
 Una vez que se agrega el host y se crean los directorios, agregamos la imagen forense que queremos 
-analizar haciendo clic en el AÑADIR IMAGEN botón:
+analizar haciendo clic en el añadir imagen botón:
 
 ![image](https://user-images.githubusercontent.com/64449711/120219062-e059da80-c1f7-11eb-94ce-d274b960db4b.png)
 
-Haga clic en el AÑADIR ARCHIVO DE IMAGEN botón para agregar el archivo de imagen.
+Haga clic en el añadir archivo de imagen botón para agregar el archivo de imagen.
 
 ![image](https://user-images.githubusercontent.com/64449711/120219109-ef408d00-c1f7-11eb-80a2-c85b4491eb14.png)
 
 Para importar la imagen para su análisis, se debe especificar la ruta completa. En mi máquina, guardé 
 el archivo de imagen en el valor predeterminado Descargas carpeta. Como tal, la ubicación de
 el archivo es / root / Downloads / terry-wor-usb-2009-12-11.E01
-esto va depender que tipo de imagen poseas en este caso yo tengo con una extersion de E01.
+esto va depender que tipo de imagen que poseas en este caso yo tengo con una extención  de E01.
 
 ![image](https://user-images.githubusercontent.com/64449711/120219181-0ed7b580-c1f8-11eb-82b7-f02486bf7c53.png)
 
@@ -106,7 +101,7 @@ Al hacer clic en Próximo, la Detalles del archivo de imagen son mostrados.
 
 ![image](https://user-images.githubusercontent.com/64449711/120219219-1d25d180-c1f8-11eb-9466-4e2e66c0a1d7.png)
 
-Haga clic en el AGREGAR botón para continuar.
+Haga clic en el agregar botón para continuar.
 
 ![image](https://user-images.githubusercontent.com/64449711/120219259-2b73ed80-c1f8-11eb-866d-5a8077bb8a2d.png)
 
@@ -128,7 +123,7 @@ siguiente captura de pantalla, podemos ver el ID de volumen y el sistema operati
 
 ![image](https://user-images.githubusercontent.com/64449711/120219376-637b3080-c1f8-11eb-93b7-02664cd0c360.png)
 
-A continuación, hacemos clic en el ANÁLISIS DE ARCHIVO pestaña. Esto se abre en el modo de exploración de archivos, que
+A continuación, hacemos clic en el analisis de archivo pestaña. Esto se abre en el modo de exploración de archivos, que
 permite el examen de directorios y archivos dentro de la imagen. Los directorios dentro de la imagen.
 
 ![image](https://user-images.githubusercontent.com/64449711/120219408-6f66f280-c1f8-11eb-9fb6-051c840e80d6.png)
@@ -187,8 +182,7 @@ y SHA256:
 
 ![image](https://user-images.githubusercontent.com/64449711/120218519-18145280-c1f7-11eb-9fa8-0062fd4a3232.png)
 
-Una vez el Comienzo se hace clic en el botón, notará que el Expresar cambios de Inactivo a
-Corriendo. La Progreso El campo también muestra ahora una barra de progreso:
+Una vez el Comienzo se hace clic en el botón, notará que el Expresar cambios de Inactivo. El Progreso del campo también muestra ahora una barra de progreso
 
 ![image](https://user-images.githubusercontent.com/64449711/120218559-282c3200-c1f7-11eb-90b0-59d3c034585e.png)
 
@@ -200,7 +194,7 @@ También vemos que Verificación de imagen está prendido:
 
 Una vez que se completa el proceso de adquisición, el color del Expresar El botón cambia de 
 azul a verde, lo que indica que el proceso de adquisición ha finalizado. También muestra Terminado: 
-verificado y correcto si se seleccionaron opciones de verificación en el Verificación / cálculo de 
+verificado y correcto si se seleccionaron opciones de verificación/ cálculo de 
 hash área. La barra de progreso también muestra 100%:
 
 ![image](https://user-images.githubusercontent.com/64449711/120218624-3ed28900-c1f7-11eb-8a50-3777fd9ab712.png)
