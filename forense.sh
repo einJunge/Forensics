@@ -19,7 +19,7 @@ paquetes(){
         command -v memdump > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b memdump No instalado"; exit 1;}
         command -v toilet > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b toiletNo instalado"; exit 1;}
         command -v chkrootkit > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b chkrootkit No instalado"; exit 1;}
-        command -v crash > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b crashNo instalado"; exit 1;}
+        command -v crash > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b crash No instalado"; exit 1;}
         command -v scalpel > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b scalpel  No instalado"; exit 1;}
         command -v benchmark > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b benchmark No instalado"; exit 1;}
        
@@ -101,9 +101,7 @@ case $menu in
 $a)
 clear
 sleep 3
-echo -e "$v+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+$z"
 toilet Create_Img
-echo -e "$v+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+$v"
 echo
 metodos="IMG_Dc3dd IMG_Guymager IMG_DD Menu"
 
@@ -161,9 +159,7 @@ clear
                 elif [ $opcion = "IMG_Guymager" ]; then
                 sleep 2s
                 clear
-                echo -e "$z+-+-+-+-+-+-+-+-+$z"
-                echo -e "$v|G|u|y|m|a|g|e|r|$v"
-                echo -e "$z+-+-+-+-+-+-+-+-+$z"
+                toilet Guymager
                 echo
                 echo 
                 echo -e "[*]Ejecutando Guymager GUI"
@@ -682,16 +678,6 @@ echo -e "bye"
 clear
 exit
 ;;
-
-
-
-
-
-
-
-
-
-
 
 
 
