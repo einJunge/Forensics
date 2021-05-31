@@ -9,13 +9,21 @@ Forensics es una herramienta escrita es bash que automatiza procesos como volcad
 
 #pip install -r requirements.txt
 
+#chmod +x forense.sh
+
+#chmod +x forensic.sh
+
+#chmod +x install
+
 #bash forensics.sh
 
 #Modo de uso
 Forenscis en el aspecto es facil de usar, solo necesitas seguir al pie de la letra todo lo que te pide.
+
 ![image](https://user-images.githubusercontent.com/64449711/120122530-9a086b00-c166-11eb-8811-c798a8edf76b.png)
 
 tambien hemos añadido una version para el habla inglesa, donde ambos paises segun su idioma pueda usar la herramienta.
+
 ![image](https://user-images.githubusercontent.com/64449711/120208670-fad98700-c1ea-11eb-9dd6-9d1eaeec0f7a.png)
 
 # Creacion de Imagen forense
@@ -26,10 +34,12 @@ ione, algunas de las herramientas que podran encontrar son, dd, guymager, dc3dd 
 
 # Recuperacion de archivos
 Incluimos una sencion para recuperacion y tallado de archivos, esto no quiere decir que recuperaras el 100% de todo ellos, pero podras tallar y recuperar información con extenciónes como, jpef, png, zip, mp4, pdf, url y entre muchas mas
+
 ![image](https://user-images.githubusercontent.com/64449711/120209038-6f142a80-c1eb-11eb-80c5-00a5fa133f14.png)
 
 # validación de hash
 la validación de hash es una parte esencial para el analisis forense, en esta area podemos nosotros integrarles un hash tanto en md5 o sha256.
+
 ![image](https://user-images.githubusercontent.com/64449711/120209607-1c873e00-c1ec-11eb-8463-558c4b22bfa1.png)
 
 # Analisis de memoria images y memoria ram
