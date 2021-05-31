@@ -198,7 +198,7 @@ hash área. La barra de progreso también muestra 100%:
 
 # Creado Por MaxWice
 # Instagram classhtb_
-# Paypal (Sorayav1616@gmail.com)
+# Paypal ( Si gustas apoyarnos con un $1 te lo adradecemos Sorayav1616@gmail.com)
 
 
 
