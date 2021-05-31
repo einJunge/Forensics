@@ -1,0 +1,5 @@
+OpenPyxl   
+Yara 
+pycrypto
+distorm3
+ujson
