@@ -21,7 +21,6 @@ paquetes(){
         command -v chkrootkit > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b chkrootkit No instalado"; exit 1;}
         command -v crash > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b crash No instalado"; exit 1;}
         command -v scalpel > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b scalpel  No instalado"; exit 1;}
-        command -v benchmark > /dev/null 2>&1 || { echo >&2 -e "$v[*]$b benchmark No instalado"; exit 1;}
        
 
 }
