@@ -673,7 +673,9 @@ clear
 
 $e)
 clear
+sleep 2
 echo -e "$v[*]Salir:$v"
+clear
 echo -e "You selected the option to exit the program..."
 sleep 2s
 echo -e "bye"
