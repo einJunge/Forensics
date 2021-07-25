@@ -463,6 +463,8 @@ do
 
 
 $d)
+clear
+sleep 3
 echo -e "$v[*]Analysis de Imagenes/Memoria:$v"
 sleep 3
 clear
